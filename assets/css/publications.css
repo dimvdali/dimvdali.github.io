@@ -82,8 +82,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
 
-/* Reset and match h2 style */
-details summary {
+/* GLOBAL FIX for <summary> styling */
+summary {
   all: unset;
   display: block;
   color: #043361;
@@ -93,8 +93,7 @@ details summary {
   cursor: pointer;
 }
 
-/* Optional: toggle arrow icon like ▼/▶ */
-details summary::before {
+summary::before {
   content: "▶ ";
   display: inline-block;
   margin-right: 8px;

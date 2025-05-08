@@ -516,8 +516,8 @@ footer {
   font-family: monospace;
 }
 
-/* Reset and match h2 style */
-details summary {
+/* GLOBAL FIX for <summary> styling */
+summary {
   all: unset;
   display: block;
   color: #043361;
@@ -527,8 +527,7 @@ details summary {
   cursor: pointer;
 }
 
-/* Optional: toggle arrow icon like ▼/▶ */
-details summary::before {
+summary::before {
   content: "▶ ";
   display: inline-block;
   margin-right: 8px;
@@ -538,4 +537,5 @@ details summary::before {
 details[open] summary::before {
   transform: rotate(90deg);
 }
+
 
