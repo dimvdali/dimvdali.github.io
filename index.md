@@ -14,6 +14,11 @@ I am a Ph.D. student in Political Science at the University of North Carolina at
 
 </details>
 
+<details>
+  <summary>Work in Progress</summary>
 
-{% include_relative _includes/services.md %}
+  {% include_relative _includes/services.md %}
+
+</details>
+
 
