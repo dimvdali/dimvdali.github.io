@@ -515,3 +515,18 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+details {
+  margin-bottom: 1.5em;
+}
+
+summary {
+  font-size: 1.3em;
+  cursor: pointer;
+  color: #043361;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
