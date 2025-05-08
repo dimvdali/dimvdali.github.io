@@ -595,3 +595,26 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+/* Reset and match h2 style */
+details summary {
+  all: unset;
+  display: block;
+  color: #043361;
+  font-weight: 500;
+  font-size: 157%;
+  margin: 2px 0px 15px;
+  cursor: pointer;
+}
+
+/* Optional: toggle arrow icon like ▼/▶ */
+details summary::before {
+  content: "▶ ";
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
