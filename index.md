@@ -10,7 +10,7 @@ I am a Ph.D. student in Political Science at the University of North Carolina at
 <details>
   <summary><strong>Publications</strong></summary>
 
-  {% include_relative publications.html %}
+  {% include publications.html %}
 
 </details>
 
