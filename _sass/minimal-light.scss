@@ -183,49 +183,50 @@ papertitle {
 }
 
 
-.image {
-  border-radius: 1em; /* larger curve */
-  border: 0;
-  display: inline-block;
-  position: relative;
-  overflow: hidden; /* ensures round corners crop the image */
-}
+  .image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+  }
 
-.image:before {
-  transition: opacity 0.2s ease-in-out;
-  border-radius: 1em;
-  content: '';
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
+    .image:before {
+      -moz-transition: opacity 0.2s ease-in-out;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -ms-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+      border-radius: 0.35em;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      opacity: 0.5;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
 
-.image.avatar {
-  border-radius: 50%;
-}
+    .image.avatar {
+      border-radius: 100%;
+    }
 
-.image.avatar:before {
-  display: none;
-}
+      .image.avatar:before {
+        display: none;
+      }
 
-.image.avatar img {
-  border-radius: 50%;
-  width: 360px;
-  max-width: 100%;
-  padding: 10px;
-  display: block;
-  margin: 0 auto;
-}
+      .image.avatar img {
+        border-radius: 100%;
+        width: 45%;
+        padding: 20px;
+        // border: 1px solid #ddd;
+        // padding: 3px;
+        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+      }
 
-#header .image.avatar {
-  margin: 0 0 1em 0;
-  width: auto;
-}
-
+    #header .image.avatar {
+      margin: 0 0 1em 0;
+      width: 8.00em;
+    }
 
 h3, h4, h5, h6 {
   font-weight: 600;
@@ -499,7 +500,7 @@ footer {
 
    .image.avatar img {
         border-radius: 100%;
-        width: 360px;
+        width: 117px;
         padding:20px;
       }
   #head1o2 {
@@ -555,8 +556,8 @@ footer {
 
   .image.avatar img {
       border-radius: 100%;
-      width: 320px;
-      padding:10px;
+      width: 95px;
+      padding:20px;
   }
   #head1o2 {
     visibility: hidden;
