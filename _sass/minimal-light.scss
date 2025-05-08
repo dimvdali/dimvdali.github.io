@@ -622,3 +622,14 @@ details[open="false"] {
   display: block;
 }
 
+.publications .links {
+  min-height: 22px; /* forces consistent height */
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.publications li {
+  margin-bottom: 6px; /* consistent overall spacing */
+  padding: 0;
+}
+
