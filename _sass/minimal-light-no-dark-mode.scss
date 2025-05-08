@@ -519,12 +519,26 @@ footer {
 details summary {
   color: #043361;
   font-weight: 500;
-  margin: 2px 0px 15px;
   font-size: 157%;
+  margin: 2px 0px 15px;
+  list-style: none;
   cursor: pointer;
-  border: none;
-  background: none;
-  padding: 0;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "▶ ";
+  display: inline-block;
+  margin-right: 6px;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg); /* arrow rotates when open */
 }
 
 
