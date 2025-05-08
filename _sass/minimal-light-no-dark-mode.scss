@@ -516,17 +516,18 @@ footer {
   font-family: monospace;
 }
 
-details {
-  margin-bottom: 1.5em;
-}
-
-summary {
-  font-size: 1.3em;
-  cursor: pointer;
+details summary {
   color: #043361;
+  font-weight: 500;
+  margin: 2px 0px 15px;
+  font-size: 157%;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
 }
 
-summary:hover {
+details summary:hover {
   text-decoration: underline;
 }
 
