@@ -1,4 +1,3 @@
-## Work in Progress
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>Why do local authorities allow dissent in autocracies: the evidence from 2017-2018 Navalny protests in Russia.</autocolor></li>
