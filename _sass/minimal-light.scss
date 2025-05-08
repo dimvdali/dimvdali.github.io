@@ -609,10 +609,10 @@ summary {
 
 summary::before {
   content: "▶ ";
-  display: inline-block;
-  margin-right: 8px;
-  transition: transform 0.2s ease;
+  font-size: 85%; /* smaller arrow */
+  margin-right: 4px;
 }
+
 
 details[open] summary::before {
   transform: rotate(90deg);
