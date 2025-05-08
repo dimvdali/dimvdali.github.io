@@ -5,7 +5,7 @@
 
 {% for link in site.data.publications.main %}
 
-<li style="margin-bottom: 4px; padding: 0;"> <!-- Minimal spacing between entries -->
+<li style="margin-bottom: 1.5px; padding: 0;"> <!-- Minimal spacing between entries -->
   <div class="pub-row" style="display: flex; margin-bottom: 2px;">
     <div class="col-sm-9" style="padding-left: 10px; padding-top: 0; padding-bottom: 0;">
       <div class="title" style="margin-bottom: 2px;"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
